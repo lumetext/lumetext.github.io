@@ -1,0 +1,30 @@
+/* Grundlegende Stile */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container für das Label */
+.center-label {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionaler Schatten */
+    border-radius: 8px; /* Abrundung beibehalten */
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .center-label {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+}
